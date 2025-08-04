@@ -50,7 +50,7 @@ namespace StreamNest.Extensions
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("https://clipcloud-gamma.vercel.app" )
+                    builder.WithOrigins("https://clipcloud-gamma.vercel.app","http://localhost:3001", "http://localhost:3000" )
                            .AllowAnyMethod()
                            .AllowAnyHeader()
                           .AllowCredentials();
