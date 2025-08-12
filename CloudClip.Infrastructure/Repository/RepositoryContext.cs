@@ -81,5 +81,6 @@ public class RepositoryContext : IdentityDbContext<User>
     public DbSet<VideoTag> VideoTags { get; set; }
     public DbSet<Comment> Comments { get; set; }
     public DbSet<Like> Likes { get; set; }
+public DbSet<Rating> Ratings { get; set; }
 
 }
