@@ -137,7 +137,7 @@ namespace StreamNest.Extensions
         {
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CloudClip", Version = "v1" });
+                s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "MetaFlix", Version = "v1" });
                 s.OperationFilter<FileUploadOperationFilter>();
                 s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {

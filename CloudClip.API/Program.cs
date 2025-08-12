@@ -52,7 +52,7 @@ if (app.Environment.IsProduction())
 
 // Configure the HTTP request pipeline.
 app.UseSwagger();
-app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CloudClip.API v1"));
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MetaFlix.API v1"));
 app.UseHttpsRedirection();
 
 app.UseRouting();
